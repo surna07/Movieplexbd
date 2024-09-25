@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Plex BD - বাংলা মুভি, সিনেমা রিভিউ, bangla dibbing movie</title>
+    <meta name="description" content="Movie Plex BD - আপনার প্রিয় বাংলা মুভি ও সিনেমার জন্য সেরা প্ল্যাটফর্ম। bangla dubbing movie, রিভিউ, রেটিং এবং আরো অনেক কিছু এখানে পান।">
+    <meta name="keywords" content="বাংলা মুভি, বাংলাদেশি সিনেমা, নতুন মুভি, movie plex, Movie Plex BD">
+    <link rel="canonical" href="https://www.movieplexbd.com/">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Movie Plex BD - বাংলা মুভি ও সিনেমা রিভিউ">
+    <meta property="og:description" content="Movie Plex BD - আপনার প্রিয় বাংলা মুভি ও সিনেমার জন্য সেরা প্ল্যাটফর্ম। নতুন মুভি রিলিজ, রিভিউ, রেটিং এবং আরো অনেক কিছু এখানে পান।">
+    <meta property="og:image" content="https://www.movieplexbd.com/images/banner.jpg">
+    <meta property="og:url" content="https://www.movieplexbd.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.movieplexbd.com/favicon.ico" type="image/x-icon">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><span class="span1">MOVIE </span><span class="span2">PLEX</span></h1>
+        <input type="text" id="search" placeholder="Search movies...">
+    </header>
+
+    <section>
+        <div class="slider-container">
+            <div class="slider-wrapper" id="slider">
+                <!-- Slides will be dynamically added here -->
+            </div>
+            <button class="nav-button prev-button" id="prevs">&#10094;</button>
+            <button class="nav-button next-button" id="nexts">&#10095;</button>
+            <div class="dots-container" id="dots"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container3">
+            <h2 class="h3">Top Movies</h2>
+            <div id="topMoviesCarousel" class="movies-container3">
+                <!-- Movie cards will be injected dynamically here -->
+            </div>
+            <button class="carousel-control-prev" id="prevBtn">&#8249;</button>
+            <button class="carousel-control-next" id="nextBtn">&#8250;</button>
+        </div>
+    </section>
+
+    <main>
+        <fieldset class="notice-fieldset">
+            <legend>নোটিশ</legend>
+            এখানে সকল ধরনের নতুন বাংলা ডাব ও হিন্দি মুভি পেয়ে যাবে।
+        </fieldset>
+
+        <h3 class="all-sec-h3">All New movies</h3>
+        <div id="loading">Loading movies...</div>
+        <div id="movie-list" class="movie-list"></div>
+        <div id="pagination">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+
+        <div id="movie-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+
+        <div class="marquee-wrapper">
+            <div class="marquee-content">
+                <span>🎉 স্বাগতম আমাদের ওয়েবসাইটে! 🎉</span>
+                <span>✨ আমাদের সাথে থাকুন নতুন আপডেটের জন্য। ✨</span>
+                <span>🌟 বিশেষ অফার এবং ইভেন্টস সম্পর্কে জানতে আমাদের সাইটে নিয়মিত ভিজিট করুন। 🌟</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- External JavaScript Files -->
+    <script type="module" src="main.js"></script>
+    <script type="module" src="slider.js"></script>
+    <script type="module" src="topMovies.js"></script>
+</body>
+
+</html>
